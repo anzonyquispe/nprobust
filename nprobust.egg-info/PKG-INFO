@@ -1,3 +1,39 @@
+Metadata-Version: 2.4
+Name: nprobust
+Version: 0.5.0
+Summary: Nonparametric Robust Estimation and Inference Methods
+Home-page: https://github.com/nppackages/nprobust
+Author: Translated from R by Calonico, Cattaneo, and Farrell
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: scipy>=1.7.0
+Provides-Extra: plotting
+Requires-Dist: matplotlib>=3.4.0; extra == "plotting"
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: matplotlib>=3.4.0; extra == "dev"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # nprobust
 
 Python implementation of the R package `nprobust`: Nonparametric Robust Estimation and Inference Methods using Local Polynomial Regression and Kernel Density Estimation.
@@ -12,11 +48,14 @@ This package provides tools for data-driven statistical analysis using local pol
 ## Installation
 
 ```bash
-pip install nprobust .
+pip install -e .
 ```
 
 Or with plotting support:
 
+```bash
+pip install -e ".[plotting]"
+```
 
 ## Main Functions
 
