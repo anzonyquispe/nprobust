@@ -2,6 +2,14 @@
 
 Python implementation of the R package `nprobust`: Nonparametric Robust Estimation and Inference Methods using Local Polynomial Regression and Kernel Density Estimation.
 
+[![PyPI version](https://img.shields.io/pypi/v/nprobust.svg?color=blue)](https://pypi.org/project/nprobust/)
+[![Downloads](https://static.pepy.tech/personalized-badge/nprobust?period=total&units=international_system&left_color=blue&right_color=grey&left_text=Downloads)](https://pepy.tech/project/nprobust)
+[![Last commit](https://img.shields.io/github/last-commit/anzonyquispe/nprobust.svg)](https://github.com/anzonyquispe/nprobust/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/anzonyquispe/nprobust.svg?style=social)](https://github.com/anzonyquispe/nprobust/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/anzonyquispe/nprobust.svg)](https://github.com/anzonyquispe/nprobust/issues)
+[![License](https://img.shields.io/github/license/anzonyquispe/nprobust.svg)](https://github.com/anzonyquispe/nprobust/blob/main/LICENSE)
+
+
 ## Description
 
 This package provides tools for data-driven statistical analysis using local polynomial regression and kernel density estimation methods as described in:
@@ -12,7 +20,7 @@ This package provides tools for data-driven statistical analysis using local pol
 ## Installation
 
 ```bash
-pip install nprobust .
+pip install nprobust
 ```
 
 Or with plotting support:
